@@ -1,0 +1,25 @@
+{
+  "name": "jcarouselSwipe",
+  "main": "./dist/jquery.jcarousel-swipe.js",
+  "version": "0.2.1",
+  "authors": [
+    "Evgeniy Pelmenev <g.snake345@gmail.com>"
+  ],
+  "keywords": [
+    "jcarousel",
+    "swipe",
+    "touch"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": ">=1.7",
+    "jcarousel": ">=0.3.4"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "jcarouselSwipe",
+  "main": "./dist/jquery.jcarousel-swipe.js",
+  "version": "0.2.1",
+  "authors": [
+    "Evgeniy Pelmenev <g.snake345@gmail.com>"
+  ],
+  "keywords": [
+    "jcarousel",
+    "swipe",
+    "touch"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": ">=1.7",
+    "jcarousel": ">=0.3.4"
+  },
+  "homepage": "https://github.com/snake-345/jcarouselSwipe",
+  "_release": "0.2.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.2.1",
+    "commit": "efed338f3bd3171cbf403230d59ddec3b0b691ee"
+  },
+  "_source": "git://github.com/snake-345/jcarouselSwipe.git",
+  "_target": ">=0.2.1",
+  "_originalSource": "jcarousel-swipe"
+}
