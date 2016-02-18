@@ -1,8 +1,7 @@
 (function($) {
     $(function() {
         $('.jcarousel')
-            .jcarousel()
-            .jcarouselSwipe();
+            .jcarousel();
 
         $('.jcarousel-control-prev')
             .on('jcarouselcontrol:active', function() {

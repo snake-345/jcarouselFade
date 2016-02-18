@@ -33,9 +33,19 @@
             itemsCount = this.items().length;
             index = this.index(this._target) + parsedTarget.target;
 
-            nextTarget = this.items().eq(index % itemsCount);
+            if (this._options.wrap === 'last' && index < 0) {
+                index = 0;
+            } else if (this._options.wrap === 'first' && index >= itemsCount) {
+                index = itemsCount - 1;
+            } else if (!this._options.wrap) {
+                index = Math.max(0, Math.min(index, itemsCount - 1));
+            } else {
+                index = index % itemsCount;
+            }
+
+            nextTarget = this.items().eq(index);
         } else {
-            nextTarget = parsedTarget.target;
+            nextTarget = $.isNumeric(parsedTarget.target) ? this.items().eq(parsedTarget.target) : parsedTarget.target;
         }
 
         if (currentTarget.is(nextTarget) || animating) {
