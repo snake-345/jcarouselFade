@@ -12,7 +12,6 @@
     "gulp-plumber": "^1.0.1",
     "gulp-rename": "*",
     "gulp-uglify": "*",
-    "gulp-util": "^3.0.6",
     "gulp-watch": "^4.1.1",
     "rimraf": "^2.3.1"
   }
